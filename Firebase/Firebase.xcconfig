@@ -6,7 +6,11 @@
 //  Copyright © 2016 jbrooks. All rights reserved.
 //
 
-LIBRARY_SEARCH_PATHS = $(inherited) "${SRCROOT}/Firebase"
-HEADER_SEARCH_PATHS = $(inherited) "${SRCROOT}/Firebase"
+
+FIREBASE_ROOT = ${SRCROOT}/Firebase
+
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${FIREBASE_ROOT}/Analytics" "${FIREBASE_ROOT}/Auth" "${FIREBASE_ROOT}/Database"
+
+HEADER_SEARCH_PATHS = $(inherited) "${FIREBASE_ROOT}"                                         "${FIREBASE_ROOT}/Analytics/FirebaseAnalytics.framework/Headers" "${FIREBASE_ROOT}/Analytics/FirebaseInstanceID.framework/Headers" "${FIREBASE_ROOT}/Auth/FirebaseAuth.framework/Headers" "${FIREBASE_ROOT}/Database/FirebaseDatabase.framework/Headers"
 
 OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"icucore" -l"sqlite3" -l"z" -framework "AdSupport" -framework "AddressBook" -framework "CFNetwork" -framework "CoreGraphics" -framework "FirebaseAnalytics" -framework "FirebaseAuth" -framework "FirebaseDatabase" -framework "FirebaseInstanceID" -framework "GoogleInterchangeUtilities" -framework "GoogleNetworkingUtilities" -framework "GoogleSymbolUtilities" -framework "GoogleUtilities" -framework "Security" -framework "StoreKit" -framework "SystemConfiguration"
