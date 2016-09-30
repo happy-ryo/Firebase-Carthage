@@ -7,6 +7,5 @@
 //
 
 LIBRARY_SEARCH_PATHS = $(inherited) "${SRCROOT}/Firebase"
-OTHER_LDFLAGS = -ObjC -l"FirebaseStatic" -l"c++" -l"icucore" -framework "CFNetwork" -framework "Security" -framework "SystemConfiguration" -fobjc-arc -fobjc-link-runtime
 
-
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"icucore" -l"sqlite3" -l"z" -framework "AdSupport" -framework "AddressBook" -framework "CFNetwork" -framework "CoreGraphics" -framework "FirebaseAnalytics" -framework "FirebaseAuth" -framework "FirebaseDatabase" -framework "FirebaseInstanceID" -framework "GoogleInterchangeUtilities" -framework "GoogleNetworkingUtilities" -framework "GoogleSymbolUtilities" -framework "GoogleUtilities" -framework "Security" -framework "StoreKit" -framework "SystemConfiguration"
