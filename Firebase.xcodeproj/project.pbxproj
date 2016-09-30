@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A36AFB61D9EE5D900F0C5DA /* Firebase.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36AFB51D9EE5D900F0C5DA /* Firebase.h */; };
+		1A36AFB61D9EE5D900F0C5DA /* Firebase.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36AFB51D9EE5D900F0C5DA /* Firebase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A36AFC21D9EE5F400F0C5DA /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A36AFB81D9EE5F400F0C5DA /* FirebaseAnalytics.framework */; };
 		1A36AFC31D9EE5F400F0C5DA /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A36AFB91D9EE5F400F0C5DA /* FirebaseInstanceID.framework */; };
 		1A36AFC41D9EE5F400F0C5DA /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A36AFBA1D9EE5F400F0C5DA /* GoogleInterchangeUtilities.framework */; };
