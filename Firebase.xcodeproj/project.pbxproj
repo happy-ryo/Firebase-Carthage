@@ -24,37 +24,16 @@
 		1A36AFED1D9EF1F100F0C5DA /* FirebaseAuth.framework in Resources */ = {isa = PBXBuildFile; fileRef = 1A36AFBE1D9EE5F400F0C5DA /* FirebaseAuth.framework */; };
 		1A36AFEE1D9EF1F100F0C5DA /* GoogleNetworkingUtilities.framework in Resources */ = {isa = PBXBuildFile; fileRef = 1A36AFBF1D9EE5F400F0C5DA /* GoogleNetworkingUtilities.framework */; };
 		1A36AFEF1D9EF1F100F0C5DA /* FirebaseDatabase.framework in Resources */ = {isa = PBXBuildFile; fileRef = 1A36AFC11D9EE5F400F0C5DA /* FirebaseDatabase.framework */; };
-		1A36B0081D9F0EAC00F0C5DA /* FIRAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36AFF31D9F0EAC00F0C5DA /* FIRAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A36B0091D9F0EAC00F0C5DA /* FIRAnalytics+AppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36AFF41D9F0EAC00F0C5DA /* FIRAnalytics+AppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A36B00A1D9F0EAC00F0C5DA /* FIRAnalyticsConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36AFF51D9F0EAC00F0C5DA /* FIRAnalyticsConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A36B00B1D9F0EAC00F0C5DA /* FIRApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36AFF61D9F0EAC00F0C5DA /* FIRApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A36B00C1D9F0EAC00F0C5DA /* FIRConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36AFF71D9F0EAC00F0C5DA /* FIRConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A36B00D1D9F0EAC00F0C5DA /* FirebaseAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36AFF81D9F0EAC00F0C5DA /* FirebaseAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A36B00E1D9F0EAC00F0C5DA /* FIREventNames.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36AFF91D9F0EAC00F0C5DA /* FIREventNames.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A36B00F1D9F0EAC00F0C5DA /* FIROptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36AFFA1D9F0EAC00F0C5DA /* FIROptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A36B0101D9F0EAC00F0C5DA /* FIRParameterNames.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36AFFB1D9F0EAC00F0C5DA /* FIRParameterNames.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A36B0111D9F0EAC00F0C5DA /* FIRUserPropertyNames.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36AFFC1D9F0EAC00F0C5DA /* FIRUserPropertyNames.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A36B0121D9F0EAC00F0C5DA /* FirebaseInstanceID.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36AFFD1D9F0EAC00F0C5DA /* FirebaseInstanceID.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A36B0131D9F0EAC00F0C5DA /* FIRInstanceID.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36AFFE1D9F0EAC00F0C5DA /* FIRInstanceID.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A36B0141D9F0EAC00F0C5DA /* FIRDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36AFFF1D9F0EAC00F0C5DA /* FIRDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A36B0151D9F0EAC00F0C5DA /* FIRDatabaseQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36B0001D9F0EAC00F0C5DA /* FIRDatabaseQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A36B0161D9F0EAC00F0C5DA /* FIRDatabaseReference.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36B0011D9F0EAC00F0C5DA /* FIRDatabaseReference.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A36B0171D9F0EAC00F0C5DA /* FIRDataEventType.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36B0021D9F0EAC00F0C5DA /* FIRDataEventType.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A36B0181D9F0EAC00F0C5DA /* FIRDataSnapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36B0031D9F0EAC00F0C5DA /* FIRDataSnapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A36B0191D9F0EAC00F0C5DA /* FirebaseDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36B0041D9F0EAC00F0C5DA /* FirebaseDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A36B01A1D9F0EAC00F0C5DA /* FIRMutableData.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36B0051D9F0EAC00F0C5DA /* FIRMutableData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A36B01B1D9F0EAC00F0C5DA /* FIRServerValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36B0061D9F0EAC00F0C5DA /* FIRServerValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A36B01C1D9F0EAC00F0C5DA /* FIRTransactionResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36B0071D9F0EAC00F0C5DA /* FIRTransactionResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8994D3871DE28D69003076FB /* FirebaseStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 8994D37D1DE28D69003076FB /* FirebaseStorage.h */; };
-		8994D3881DE28D69003076FB /* FIRStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 8994D37E1DE28D69003076FB /* FIRStorage.h */; };
-		8994D3891DE28D69003076FB /* FIRStorageConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 8994D37F1DE28D69003076FB /* FIRStorageConstants.h */; };
-		8994D38A1DE28D69003076FB /* FIRStorageDownloadTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 8994D3801DE28D69003076FB /* FIRStorageDownloadTask.h */; };
-		8994D38B1DE28D69003076FB /* FIRStorageMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 8994D3811DE28D69003076FB /* FIRStorageMetadata.h */; };
-		8994D38C1DE28D69003076FB /* FIRStorageObservableTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 8994D3821DE28D69003076FB /* FIRStorageObservableTask.h */; };
-		8994D38D1DE28D69003076FB /* FIRStorageReference.h in Headers */ = {isa = PBXBuildFile; fileRef = 8994D3831DE28D69003076FB /* FIRStorageReference.h */; };
-		8994D38E1DE28D69003076FB /* FIRStorageTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 8994D3841DE28D69003076FB /* FIRStorageTask.h */; };
-		8994D38F1DE28D69003076FB /* FIRStorageTaskSnapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 8994D3851DE28D69003076FB /* FIRStorageTaskSnapshot.h */; };
-		8994D3901DE28D69003076FB /* FIRStorageUploadTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 8994D3861DE28D69003076FB /* FIRStorageUploadTask.h */; };
+		8994D3871DE28D69003076FB /* FirebaseStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 8994D37D1DE28D69003076FB /* FirebaseStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8994D3881DE28D69003076FB /* FIRStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 8994D37E1DE28D69003076FB /* FIRStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8994D3891DE28D69003076FB /* FIRStorageConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 8994D37F1DE28D69003076FB /* FIRStorageConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8994D38A1DE28D69003076FB /* FIRStorageDownloadTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 8994D3801DE28D69003076FB /* FIRStorageDownloadTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8994D38B1DE28D69003076FB /* FIRStorageMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 8994D3811DE28D69003076FB /* FIRStorageMetadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8994D38C1DE28D69003076FB /* FIRStorageObservableTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 8994D3821DE28D69003076FB /* FIRStorageObservableTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8994D38D1DE28D69003076FB /* FIRStorageReference.h in Headers */ = {isa = PBXBuildFile; fileRef = 8994D3831DE28D69003076FB /* FIRStorageReference.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8994D38E1DE28D69003076FB /* FIRStorageTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 8994D3841DE28D69003076FB /* FIRStorageTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8994D38F1DE28D69003076FB /* FIRStorageTaskSnapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 8994D3851DE28D69003076FB /* FIRStorageTaskSnapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8994D3901DE28D69003076FB /* FIRStorageUploadTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 8994D3861DE28D69003076FB /* FIRStorageUploadTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8994D3941DE28D92003076FB /* FirebaseStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8994D3921DE28D92003076FB /* FirebaseStorage.framework */; };
 		8994D3961DE28E39003076FB /* FirebaseStorage.framework in Resources */ = {isa = PBXBuildFile; fileRef = 8994D3921DE28D92003076FB /* FirebaseStorage.framework */; };
 		8994D3A41DE2A24D003076FB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 8994D3991DE2A24D003076FB /* LICENSE */; };
@@ -82,6 +61,27 @@
 		8994D3CB1DE2A3B8003076FB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8994D3CA1DE2A3B8003076FB /* Security.framework */; };
 		8994D3CD1DE2A3C5003076FB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8994D3CC1DE2A3C5003076FB /* MobileCoreServices.framework */; };
 		8994D3CF1DE2A3CF003076FB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8994D3CE1DE2A3CF003076FB /* SystemConfiguration.framework */; };
+		8994D3D21DE2A5C5003076FB /* FIRAnalytics+AppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36AFF41D9F0EAC00F0C5DA /* FIRAnalytics+AppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8994D3D31DE2A5C5003076FB /* FIRAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36AFF31D9F0EAC00F0C5DA /* FIRAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8994D3D41DE2A5C5003076FB /* FIRAnalyticsConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36AFF51D9F0EAC00F0C5DA /* FIRAnalyticsConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8994D3D51DE2A5C5003076FB /* FIRApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36AFF61D9F0EAC00F0C5DA /* FIRApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8994D3D61DE2A5C5003076FB /* FIRConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36AFF71D9F0EAC00F0C5DA /* FIRConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8994D3D71DE2A5C5003076FB /* FIRDataEventType.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36B0021D9F0EAC00F0C5DA /* FIRDataEventType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8994D3D81DE2A5C5003076FB /* FIRDataSnapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36B0031D9F0EAC00F0C5DA /* FIRDataSnapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8994D3D91DE2A5C5003076FB /* FIRDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36AFFF1D9F0EAC00F0C5DA /* FIRDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8994D3DA1DE2A5C5003076FB /* FIRDatabaseQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36B0001D9F0EAC00F0C5DA /* FIRDatabaseQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8994D3DB1DE2A5C5003076FB /* FIRDatabaseReference.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36B0011D9F0EAC00F0C5DA /* FIRDatabaseReference.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8994D3DC1DE2A5C5003076FB /* FIREventNames.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36AFF91D9F0EAC00F0C5DA /* FIREventNames.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8994D3DD1DE2A5C5003076FB /* FIRInstanceID.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36AFFE1D9F0EAC00F0C5DA /* FIRInstanceID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8994D3DE1DE2A5C5003076FB /* FIRMutableData.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36B0051D9F0EAC00F0C5DA /* FIRMutableData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8994D3DF1DE2A5C5003076FB /* FIROptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36AFFA1D9F0EAC00F0C5DA /* FIROptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8994D3E01DE2A5C5003076FB /* FIRParameterNames.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36AFFB1D9F0EAC00F0C5DA /* FIRParameterNames.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8994D3E11DE2A5C5003076FB /* FIRServerValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36B0061D9F0EAC00F0C5DA /* FIRServerValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8994D3E21DE2A5C5003076FB /* FIRTransactionResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36B0071D9F0EAC00F0C5DA /* FIRTransactionResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8994D3E31DE2A5C5003076FB /* FIRUserPropertyNames.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36AFFC1D9F0EAC00F0C5DA /* FIRUserPropertyNames.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8994D3E41DE2A5C5003076FB /* FirebaseAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36AFF81D9F0EAC00F0C5DA /* FirebaseAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8994D3E51DE2A5C5003076FB /* FirebaseDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36B0041D9F0EAC00F0C5DA /* FirebaseDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8994D3E61DE2A5C5003076FB /* FirebaseInstanceID.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36AFFD1D9F0EAC00F0C5DA /* FirebaseInstanceID.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -368,48 +368,48 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A36AFB61D9EE5D900F0C5DA /* Firebase.h in Headers */,
+				8994D3D61DE2A5C5003076FB /* FIRConfiguration.h in Headers */,
 				8994D3891DE28D69003076FB /* FIRStorageConstants.h in Headers */,
 				8994D3BE1DE2A31E003076FB /* GTMDebugThreadValidation.h in Headers */,
 				8994D3A81DE2A24D003076FB /* GTMSessionFetcherLogging.h in Headers */,
+				8994D3D41DE2A5C5003076FB /* FIRAnalyticsConfiguration.h in Headers */,
+				8994D3DD1DE2A5C5003076FB /* FIRInstanceID.h in Headers */,
+				8994D3E61DE2A5C5003076FB /* FirebaseInstanceID.h in Headers */,
 				8994D38D1DE28D69003076FB /* FIRStorageReference.h in Headers */,
-				1A36B0081D9F0EAC00F0C5DA /* FIRAnalytics.h in Headers */,
-				1A36B0091D9F0EAC00F0C5DA /* FIRAnalytics+AppDelegate.h in Headers */,
-				1A36B00A1D9F0EAC00F0C5DA /* FIRAnalyticsConfiguration.h in Headers */,
+				8994D3D71DE2A5C5003076FB /* FIRDataEventType.h in Headers */,
+				8994D3D21DE2A5C5003076FB /* FIRAnalytics+AppDelegate.h in Headers */,
+				8994D3DE1DE2A5C5003076FB /* FIRMutableData.h in Headers */,
 				8994D3871DE28D69003076FB /* FirebaseStorage.h in Headers */,
-				1A36B00B1D9F0EAC00F0C5DA /* FIRApp.h in Headers */,
-				1A36B00C1D9F0EAC00F0C5DA /* FIRConfiguration.h in Headers */,
-				1A36B00D1D9F0EAC00F0C5DA /* FirebaseAnalytics.h in Headers */,
-				1A36B00E1D9F0EAC00F0C5DA /* FIREventNames.h in Headers */,
 				8994D3C61DE2A31E003076FB /* GTMDefines.h in Headers */,
-				1A36B00F1D9F0EAC00F0C5DA /* FIROptions.h in Headers */,
-				1A36B0101D9F0EAC00F0C5DA /* FIRParameterNames.h in Headers */,
-				1A36B0111D9F0EAC00F0C5DA /* FIRUserPropertyNames.h in Headers */,
-				1A36B0121D9F0EAC00F0C5DA /* FirebaseInstanceID.h in Headers */,
+				8994D3E41DE2A5C5003076FB /* FirebaseAnalytics.h in Headers */,
 				8994D3BF1DE2A31E003076FB /* GTMMethodCheck.h in Headers */,
-				1A36B0131D9F0EAC00F0C5DA /* FIRInstanceID.h in Headers */,
-				1A36B0141D9F0EAC00F0C5DA /* FIRDatabase.h in Headers */,
-				1A36B0151D9F0EAC00F0C5DA /* FIRDatabaseQuery.h in Headers */,
 				8994D38A1DE28D69003076FB /* FIRStorageDownloadTask.h in Headers */,
 				8994D3AA1DE2A24D003076FB /* GTMSessionFetcherService.h in Headers */,
 				8994D38E1DE28D69003076FB /* FIRStorageTask.h in Headers */,
 				8994D3881DE28D69003076FB /* FIRStorage.h in Headers */,
-				1A36B0161D9F0EAC00F0C5DA /* FIRDatabaseReference.h in Headers */,
-				1A36B0171D9F0EAC00F0C5DA /* FIRDataEventType.h in Headers */,
+				8994D3D81DE2A5C5003076FB /* FIRDataSnapshot.h in Headers */,
+				8994D3E01DE2A5C5003076FB /* FIRParameterNames.h in Headers */,
+				8994D3DB1DE2A5C5003076FB /* FIRDatabaseReference.h in Headers */,
+				8994D3E51DE2A5C5003076FB /* FirebaseDatabase.h in Headers */,
 				8994D3C21DE2A31E003076FB /* GTMNSDictionary+URLArguments.h in Headers */,
 				8994D3C41DE2A31E003076FB /* GTMNSString+URLArguments.h in Headers */,
 				8994D3AC1DE2A24D003076FB /* GTMSessionUploadFetcher.h in Headers */,
+				8994D3DF1DE2A5C5003076FB /* FIROptions.h in Headers */,
 				8994D3A61DE2A24D003076FB /* GTMSessionFetcher.h in Headers */,
-				1A36B0181D9F0EAC00F0C5DA /* FIRDataSnapshot.h in Headers */,
 				8994D38C1DE28D69003076FB /* FIRStorageObservableTask.h in Headers */,
 				8994D38F1DE28D69003076FB /* FIRStorageTaskSnapshot.h in Headers */,
+				8994D3D51DE2A5C5003076FB /* FIRApp.h in Headers */,
+				8994D3E31DE2A5C5003076FB /* FIRUserPropertyNames.h in Headers */,
+				8994D3DA1DE2A5C5003076FB /* FIRDatabaseQuery.h in Headers */,
 				8994D3901DE28D69003076FB /* FIRStorageUploadTask.h in Headers */,
+				8994D3D91DE2A5C5003076FB /* FIRDatabase.h in Headers */,
 				8994D3BD1DE2A31E003076FB /* GTMDebugSelectorValidation.h in Headers */,
-				1A36B0191D9F0EAC00F0C5DA /* FirebaseDatabase.h in Headers */,
-				1A36B01A1D9F0EAC00F0C5DA /* FIRMutableData.h in Headers */,
-				1A36B01B1D9F0EAC00F0C5DA /* FIRServerValue.h in Headers */,
+				8994D3E11DE2A5C5003076FB /* FIRServerValue.h in Headers */,
+				8994D3E21DE2A5C5003076FB /* FIRTransactionResult.h in Headers */,
+				8994D3D31DE2A5C5003076FB /* FIRAnalytics.h in Headers */,
+				8994D3DC1DE2A5C5003076FB /* FIREventNames.h in Headers */,
 				8994D3C01DE2A31E003076FB /* GTMNSData+zlib.h in Headers */,
 				8994D38B1DE28D69003076FB /* FIRStorageMetadata.h in Headers */,
-				1A36B01C1D9F0EAC00F0C5DA /* FIRTransactionResult.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
